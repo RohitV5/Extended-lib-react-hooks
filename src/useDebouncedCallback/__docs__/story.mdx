@@ -1,0 +1,47 @@
+import { Canvas, Meta, Story } from '@storybook/addon-docs/blocks';
+import { Example } from './example.stories';
+import { ImportPath } from '../../storybookUtil/ImportPath';
+
+<Meta title="Callback/useDebouncedCallback" component={Example} />
+
+# useDebouncedCallback
+
+Makes passed function debounced, otherwise acts like `useCallback`.  
+[What is debouncing?](https://css-tricks.com/debouncing-throttling-explained-examples/#debounce)
+
+The third argument is dependencies list on `useCallback` manner, passed function will be re-wrapped
+when delay or dependencies has changed. Changed debounce callbacks still has same timeout, meaning
+that calling new debounced function will abort previously scheduled invocation.
+
+Debounced function is always a void function since original callback invoked later.
+
+Deferred execution automatically cancelled on component unmount.
+
+#### Example
+
+<Canvas>
+  <Story story={Example} inline />
+</Canvas>
+
+## Reference
+
+```ts
+export function useDebouncedCallback<Args extends any[], This>(
+  callback: (this: This, ...args: Args) => any,
+  deps: DependencyList,
+  delay: number,
+  maxWait = 0
+): IDebouncedFunction<Args, This>;
+```
+
+#### Importing
+
+<ImportPath />
+
+#### Arguments
+
+- **callback** _`(...args: T) => unknown`_ - function that will be debounced.
+- **deps** _`React.DependencyList`_ - dependencies list when to update callback.
+- **delay** _`number`_ - debounce delay.
+- **maxWait** _`number`_ _(default: `0`)_ - The maximum time `callback` is allowed to be delayed
+  before it's invoked. `0` means no max wait.
