@@ -3,7 +3,7 @@
 # ![@extended-lib/react-hooks](.github/logo.png)
 
 [![NPM Version](https://flat.badgen.net/npm/v/@extended-lib/react-hooks)](https://www.npmjs.com/package/@extended-lib/react-hooks)
-[![NPM Downloads](https://flat.badgen.net/npm/dm/@extended-lib/react-hooks)](https://www.npmjs.com/package/@extended-lib/react-hooks)
+[![NPM Downloads](https://badgen.net/npm/dm/@extended-lib/react-hooks)](https://www.npmjs.com/package/@extended-lib/react-hooks)
 [![NPM Dependents](https://flat.badgen.net/npm/dependents/@extended-lib/react-hooks)](https://www.npmjs.com/package/@extended-lib/react-hooks)
 [![Build](https://img.shields.io/github/workflow/status/react-hookz/web/CI?style=flat-square)](https://github.com/react-hookz/web/actions)
 [![Coverage](https://flat.badgen.net/codecov/c/github/react-hookz/web)](https://app.codecov.io/gh/react-hookz/web)

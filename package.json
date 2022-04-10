@@ -1,6 +1,6 @@
 {
   "name": "@extended-lib/react-hooks",
-  "version": "13.3.0",
+  "version": "1.1.2",
   "description": "React hooks done right, for browser and SSR.",
   "keywords": [
     "react",
@@ -12,10 +12,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-hookz/web.git"
+    "url": "https://github.com/RohitV5/Extended-lib-react-hooks.git"
   },
   "bugs": {
-    "url": "https://github.com/react-hookz/web/issues"
+    "url": "https://github.com/RohitV5/Extended-lib-react-hooks/issues"
   },
   "publishConfig": {
     "access": "public"
