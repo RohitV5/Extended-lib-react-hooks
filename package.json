@@ -106,7 +106,7 @@
     "commitlint": "^17.3.0",
     "concurrently": "^7.6.0",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "husky": "^8.0.2",
+    "husky": "^8.0.3",
     "jest": "^27.5.1",
     "jest-github-actions-reporter": "^1.0.3",
     "js-cookie": "^3.0.1",
