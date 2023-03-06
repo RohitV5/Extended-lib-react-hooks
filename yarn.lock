@@ -1279,7 +1279,7 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@commitlint/cli@^17.4.2", "@commitlint/cli@^17.4.4":
+"@commitlint/cli@^17.4.4":
   version "17.4.4"
   resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-17.4.4.tgz#36df08bfa31dbb9a2b6b1d7187a31e578f001a06"
   integrity sha512-HwKlD7CPVMVGTAeFZylVNy14Vm5POVY0WxPkZr7EXLC/os0LH/obs6z4HRvJtH/nHCMYBvUBQhGwnufKfTjd5g==
@@ -1445,7 +1445,7 @@
   dependencies:
     find-up "^5.0.0"
 
-"@commitlint/types@^17.4.0", "@commitlint/types@^17.4.4":
+"@commitlint/types@^17.4.4":
   version "17.4.4"
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-17.4.4.tgz#1416df936e9aad0d6a7bbc979ecc31e55dade662"
   integrity sha512-amRN8tRLYOsxRr6mTnGGGvB5EmW/4DDjLMgiwK3CCVEmN6Sr/6xePGEpWaspKkckILuUORCwe6VfDBw6uj4axQ==
@@ -5774,13 +5774,13 @@ commitizen@^4.0.3, commitizen@^4.3.0:
     strip-bom "4.0.0"
     strip-json-comments "3.1.1"
 
-commitlint@^17.4.2:
-  version "17.4.2"
-  resolved "https://registry.yarnpkg.com/commitlint/-/commitlint-17.4.2.tgz#0d9b34ecc15bb9055abcd492bc98cd6974538c2d"
-  integrity sha512-1UQecX+vSJHQXTKFMRZmf8EG3BYYjkT26JLe6FTQhu7N67FiWdWbqXMpcQSpqx/kWNz9a+DX2au2e61IH89PDA==
+commitlint@^17.4.4:
+  version "17.4.4"
+  resolved "https://registry.yarnpkg.com/commitlint/-/commitlint-17.4.4.tgz#884031ff5be10cc7a508f6f214e95543f9a2e020"
+  integrity sha512-trjD7/aJ3FyCMNRhP27QorPjvlE9m0AIlLKcusS6r8aDaDJQ8/MQMmANMv3LvjVx1SKy1MTSF0/oUw3T3If/EA==
   dependencies:
-    "@commitlint/cli" "^17.4.2"
-    "@commitlint/types" "^17.4.0"
+    "@commitlint/cli" "^17.4.4"
+    "@commitlint/types" "^17.4.4"
 
 common-ancestor-path@^1.0.1:
   version "1.0.1"
