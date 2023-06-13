@@ -93,7 +93,7 @@
     "@storybook/addon-essentials": "^7.0.13",
     "@storybook/addon-links": "^7.0.20",
     "@storybook/addons": "^7.0.17",
-    "@storybook/react": "^7.0.12",
+    "@storybook/react": "^7.0.20",
     "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/theming": "^7.0.20",
     "@testing-library/react-hooks": "^8.0.1",
